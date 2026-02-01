@@ -18,7 +18,8 @@ If we re-export new images, we need to re index the files in sequential order wi
 To add the new order to fileList.txt
 
 Then rewrite input.txt from fileList.txt like so
-
-```while read line; do
+```
+while read line; do
     echo "file '$PWD/$line'"
-done < filelist.txt > input.txt```
+done < filelist.txt > input.txt
+```
